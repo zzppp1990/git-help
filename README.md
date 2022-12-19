@@ -14,7 +14,15 @@ https://git-scm.com/book/zh/v2/
 ## 3. git拉取  
 git clone "..."    
 获取最新代码到本地：  
-git pull  
+git pull(不推荐使用)  
+
+推荐用法：  
+查看远程分支：  
+git remote show  
+抓取远端最新数据到本地：  
+git fetch origin  (origin为远端仓库的名称)  
+将这些工作合并到当前所在的分支：  
+git merge origin/main  
 
 ## 4. git push  
 git push origin main  
