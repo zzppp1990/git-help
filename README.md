@@ -26,11 +26,27 @@ git fetch origin  (origin为远端仓库的名称)
 将这些工作合并到当前所在的分支：  
 git merge origin/main  
 
-查看分支状态：  
-git branch -av  
 
 ## 4. git push  
 git push origin main  
 
 ## 5. 分支操作
+切换分支：  
+git checkout 分支名  
+
+创建分支：  
+git checkout -b  
+
+查看分支：  
+git branch -av  
+
+提交代码到分支：  
+git push origin 分支名  
+
+合并分支代码到主分支：  
+git merge 主分支名 分支名  
+
+
+
+
 
