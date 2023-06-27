@@ -42,6 +42,8 @@ git branch -av
 
 提交代码到分支：  
 git push origin 分支名  
+git push 会提示  
+git push --set-upstream origin guangqi_del_task  
 
 合并分支代码到主分支：  
 git merge 主分支名 分支名  
